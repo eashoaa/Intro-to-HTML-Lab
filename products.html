@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Espresso</title>
+    <link rel="icon" type="image/png" href="images/logo.jpg">
+    <style>
+        body {
+            background-color: #7F2B0A;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            font-size: 3rem;
+        }
+        h1 img {
+            vertical-align: middle;
+            margin-right: 20px;
+        }
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav a {
+            display: inline-block;
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            color: #e74c3c;
+        }
+        .center-content {
+            text-align: center;
+            margin: 0 auto;
+        }
+        .tagline {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .product-table {
+            width: 300px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .product-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+        .product-title a {
+            color: white;
+            text-decoration: underline;
+        }
+        .product-title a:hover {
+            color: #e74c3c;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #e74c3c;
+            border: none;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #c0392b;
+        }
+        .copyright {
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>
+        <img src="https://cdn.pixabay.com/photo/2023/07/19/19/14/ai-generated-8137632_1280.png" height="100"/>
+        DIGITAL ESPRESSO
+    </h1>
+
+    <hr>
+    <nav>
+        <a href="index.html" title="Home">Home</a>
+        <a href="products.html" title="Products">Products</a>
+        <a href="branches.html" title="Branches">Branches</a>
+        <a href="aboutus.html" title="About Us">About Us</a>
+    </nav>
+    <hr>
+
+    <div class="center-content">
+        <p class="tagline">Our Products</p>
+    </div>
+
+    <div class="product-container">
+        <div class="product-table">
+            <img src="https://static.vecteezy.com/system/resources/previews/023/438/474/non_2x/espresso-coffee-cutout-free-png.png" class="product-image" alt="Americano">
+            <div class="product-title"><a href="americano.html"><h1>Americano</h1></a></div>
+            <div><a href="americano.html"><button>View</button></a></div>
+        </div>
+
+        <div class="product-table">
+            <img src="https://www.pngall.com/wp-content/uploads/3/Espresso-PNG-Photo.png" class="product-image" alt="Cappuccino">
+            <div class="product-title"><a href="cappuccino.html"><h1>Cappuccino</h1></a></div>
+            <div><a href="cappuccino.html"><button>View</button></a></div>
+        </div>
+
+        <div class="product-table">
+            <img src="https://png.pngtree.com/png-vector/20240529/ourmid/pngtree-espresso-cup-with-a-rich-dark-coffee-shot-png-image_12511778.png" class="product-image" alt="Espresso">
+            <div class="product-title"><a href="espresso.html"><h1>Espresso</h1></a></div>
+            <div><a href="espresso.html"><button>View</button></a></div>
+        </div>
+
+        <div class="product-table">
+            <img src="https://png.pngtree.com/png-vector/20240615/ourmid/pngtree-mocha-coffee-frappe-in-glass-png-image_12744825.png" class="product-image" alt="Frappuccino">
+            <div class="product-title"><a href="mocha.html"><h1>Frappuccino</h1></a></div>
+            <div><a href="Frappuccino.html"><button>View</button></a></div>
+        </div>
+    </div>
+
+    <hr>
+    <p class="copyright">© 2024 Digital Espresso. All rights reserved.</p>
+</body>
+</html>
